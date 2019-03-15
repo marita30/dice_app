@@ -7,8 +7,11 @@ class Dado
 	def resultado
 		salida_dado = rand(1..6)
 		salida_dado
-		
-		
+	end
+	#Tercer historia de usuario
+	def random_player 
+		salida_aleatoria = rand(1..3)
+		salida_aleatoria
 	end
 end
 		
