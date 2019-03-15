@@ -21,6 +21,15 @@ describe Dado do
 			expect(subject.random_player).to be_between(1,3)
 		end
 	end
+#Cuarta historia de usuario
+    describe '#cantidad_de_dados' do
+    	it 'cantidad de dados al mismo tiempo' do
+    		dado = Dado.new
+    		expect(dado.add_new_dado).to eq(2)
+
+    	end
+    end
+
 
 
 end

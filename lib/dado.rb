@@ -1,4 +1,8 @@
 class Dado 
+ def initialize
+ 	@dado = 1
+ end
+
 	#Primera historia de usuario
 	def roll
 		true
@@ -13,6 +17,11 @@ class Dado
 		salida_aleatoria = rand(1..3)
 		salida_aleatoria
 	end
+	#Cuarta historia de usuario
+
+	def add_new_dado
+		@dado += 1
+	end
 end
 		
-	
+	 	
